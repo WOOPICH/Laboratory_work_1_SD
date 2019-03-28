@@ -24,6 +24,10 @@ public class SplashScreen extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE);
         setContentView(R.layout.activity_splash_screen);
 
+
+
+
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

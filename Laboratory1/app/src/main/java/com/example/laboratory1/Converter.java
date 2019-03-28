@@ -133,9 +133,9 @@ public class Converter {
                 return "восемьсот";
             case 9:
                 return "девятьсот";
-            default:
-                throw new IllegalArgumentException("getHundredsFrom1to9 expects number from 1 to 9\n"
-                        + x + " found\n");
+            default: return "хах мда";
+           //     throw new IllegalArgumentException("getHundredsFrom1to9 expects number from 1 to 9\n"
+           //             + x + " found\n");
         }
     }
 
